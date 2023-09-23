@@ -6,6 +6,7 @@ import { MdLocalPolice } from "react-icons/md";
 import{Button, IconButton } from '@mui/material'
 import { red } from '@mui/material/colors';
 import { useState, useEffect } from 'react';
+import Navbar from './Navbar';
  
 const Alert = () => {
 
@@ -74,6 +75,7 @@ const Alert = () => {
   
   return (
     <>
+    <Navbar/>
     <div className='body' style={{backgroundColor}}>
      <div className="loader">
         <div className="loader-circle" ></div>
