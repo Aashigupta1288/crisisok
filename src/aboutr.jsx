@@ -59,7 +59,7 @@ function App() {
         </h2>
       </div>
 
-      <br /><br /><br /><br /><br /><br />
+      <br /><br /> <br /><br /><br /><br />
     </div>
   );
 }
