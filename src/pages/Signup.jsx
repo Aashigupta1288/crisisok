@@ -10,7 +10,7 @@ export const Signup = () => {
   return (
     <>
     <Navbar/>
-    <br /> <br />
+    
     <div className="box">
     <div className="noi">
     <soi>Crisis Aid 360 </soi>
@@ -35,13 +35,13 @@ export const Signup = () => {
         <input type="number" placeholder="Unique ID" /><br/>
         <input type="link" placeholder="Photo" /><br/>
         <select>
-            <option value="indian">Type</option>
+            <option value="type">Type</option>
         
-            <option value="nepali">Fire Brigade</option>
+            <option value="fire brigade">Fire Brigade</option>
     
 
-            <option value="others">Hospital</option>
-            <option value="others">Police</option>
+            <option value="hospital">Hospital</option>
+            <option value="police">Police</option>
 
         </select>
 
@@ -57,7 +57,7 @@ export const Signup = () => {
       </div>
     </div>
     </div>
-    <br /> <br />
+    
 
 
 

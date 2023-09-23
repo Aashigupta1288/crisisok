@@ -2,13 +2,29 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 import './navbar.css'
 import  logo from "./whitelogo.png";
+import { useEffect, useState } from 'react';
 
 
-const navbar = () => {
+const Navbar = () => {
+
+  const [isNavbarOpaque, setIsNavbarOpaque] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsNavbarOpaque(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+
   return (
     <>
         
-        <nav>
+        <nav className={`navbar ${isNavbarOpaque ? "opaque" : ""}`}>
         <div className='logonav'><img src={logo} alt='logo' height="90px" width="90px"/></div>
           <div>
             <ul id='navbar'>
@@ -28,4 +44,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

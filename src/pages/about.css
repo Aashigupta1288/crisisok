@@ -28,6 +28,7 @@
       font-family:Calibri Light;
       margin-left: 18%;
       margin-right: 18%;
+      margin-top: 40px;
     }
   
     .sqs-html-content2s{
@@ -35,6 +36,7 @@
       white-space:pre-wrap;
       font-family:'Courier New', Courier, monospace;
       color:rgba(208, 22, 22, 0.663);
+      margin-top: 10px;
     }
   
     .sqs-html-content3s{
@@ -48,12 +50,13 @@
   
           display: flex;
           justify-content: center;
+          
       }
       .cardaa{
           background:#815b3fc6;
           width: 280px;
           height: 415px;
-          margin: 50px;
+          margin: 10px;
           border-radius: 15px;
           color: white;
       }
@@ -61,18 +64,21 @@
           background: #815b3fc6;
           width: 280px;
           height: 415px;
-          margin: 50px;
+          margin: 10px;
           border-radius: 15px;
           color: antiquewhite;
       }
       .y{
+        margin-top: 20px;
         margin-left:5%;
         margin-right:5%;
         font-size:medium;
         font-style:oblique;
         font-display:initial;
       }
-    
+    .sm{
+      margin-top: 10px;
+    }
     
   span {
     display: inline-block;

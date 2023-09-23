@@ -37,22 +37,17 @@ export const Login1 = () => {
         
    
 
-               <button><Link to="/Signup" style={{ textDecoration: "none", color:"White" }} > Login</Link></button>
+               <button><Link to="/Signup" style={{ textDecoration: "none", color:"White"}} > Login </Link></button>
 
              </div>
-             
-
-            
-
-            
-         
+             <br />
              <p>
-             &nbsp;&nbsp;&nbsp;Don't have an account? <Link to="/signup" style={{ textDecoration: "none" ,color:"Pink"}}>Create your account</Link>
+             &nbsp;&nbsp;&nbsp;Don't have an account? <Link to="/signup" style={{ textDecoration: "none" ,color:"Pink" }}>Create your account</Link>
              </p>
            
            </div>
          </div>
-         <br /> <br />
+        
          
    </>
   )
