@@ -24,6 +24,8 @@ function App() {
     
      </BrowserRouter> 
   );
+  return 
+
 }
 
 export default App;
