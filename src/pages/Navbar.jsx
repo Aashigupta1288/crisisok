@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import './navbar.css'
 import  logo from "./whitelogo.png";
 import { useEffect, useState } from 'react';
-
+import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
 
@@ -21,13 +21,15 @@ const Navbar = () => {
   }, []);
 
 
+
   return (
     <>
         
         <nav className={`navbar ${isNavbarOpaque ? "opaque" : ""}`}>
         <div className='logonav'><img src={logo} alt='logo' height="90px" width="90px"/></div>
-          <div>
+          <div>   ``
             <ul id='navbar'>
+           
               <li><NavLink to="/" exact activeclassName="active"><a>ABOUT</a></NavLink></li>
               <li><NavLink to="/helpline">HELPLINE</NavLink></li>
               <li><NavLink to="/map">MAP</NavLink></li>
